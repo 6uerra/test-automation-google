@@ -9,6 +9,7 @@ Dotenv.load
 
 env = Class.new { extend EnvVars }
 
+# driver initialization
 begin
     chromedriver_path = File.join(File.absolute_path(''), 'chromedriver')
     Selenium::WebDriver::Chrome::Service.driver_path = chromedriver_path

@@ -1,4 +1,5 @@
 module Helpers
+  # method is used to validate that before performing any action the element is visible and in the correct position
   def wait_displays(time, elements, type_tag)
     wait_element_displays(time, elements, type_tag)
     wait_element_location(time, elements, type_tag)

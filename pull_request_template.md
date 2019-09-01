@@ -6,6 +6,6 @@
 
 [Change!] List any known issue of the feature you are implementing.
 
-## Jira Card
+## UH
 
-[Change!] Link to the associated Azure card.
+[Change!] Link to the associated UH
